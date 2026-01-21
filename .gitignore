@@ -1,0 +1,18 @@
+# Ignore Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Data (Too big for GitHub)
+data/
+stream_stage/
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore Spark temp files
+derby.log
+metastore_db/
+
+# Ignore local Java/Hadoop utils (users should install their own)
+winutils/
